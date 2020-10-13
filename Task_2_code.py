@@ -60,5 +60,6 @@ median_cnt_project1 = s_means.loc[1] #медианное количество з
 median_cnt_project2 = s_means.loc[2] #медианное количество задач, которое асессор решает за 30 секунд по проекту 2
 period_cnt_30 = cnt_project1 / median_cnt_project1 + cnt_project2 /median_cnt_project2 # Рассчитываем количество периодов (по 30 секунд), которые должны быть затрачены на решение всех задач по проектам 1 и 2
 period_cnt_30=math.ceil(period_cnt_30) # округляем period_cnt_30 в большую сторону 
+print(period_cnt_30)
 # Оплата за выполнение задач по проектам = period_cnt_30 * N руб
 
